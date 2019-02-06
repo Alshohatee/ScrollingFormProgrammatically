@@ -100,7 +100,7 @@ class ViewController: UIViewController {
     
     //Called when the return key of any UITextField is tapped.
     
-    @objc func returnKeyTapped(_ sender: UITextField) {
+    @@IBAction func returnKeyTapped(_ sender: UITextField) {
         sender.resignFirstResponder();
     }
     
