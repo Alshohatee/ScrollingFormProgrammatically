@@ -48,7 +48,7 @@ class ViewController: UIViewController {
             view.addSubview(textField);
             
             //The first seven anchors on page 586.
-            label.leadingAnchor.constraint (equalTo: view.leadingAnchor, constant: view.layoutMargins.left).isActive = true;
+            label.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: view.layoutMargins.left).isActive = true;
             label.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -view.layoutMargins.right).isActive = true;
             label.topAnchor.constraint(equalTo: view.topAnchor, constant: view.layoutMargins.top).isActive = true;
             label.bottomAnchor.constraint(equalTo: textField.topAnchor, constant: -view.layoutMargins.top).isActive = true;
